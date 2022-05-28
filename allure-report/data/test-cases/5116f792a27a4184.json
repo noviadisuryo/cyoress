@@ -1,0 +1,182 @@
+{
+  "uid" : "5116f792a27a4184",
+  "name" : "should return a list contain all users",
+  "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
+  "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
+  "time" : {
+    "start" : 1653749569036,
+    "stop" : 1653749569378,
+    "duration" : 342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 200 to equal 201",
+  "statusTrace" : "AssertionError: expected 200 to equal 201\n                    at Context.eval (http://localhost:56302/__cypress/tests?p=cypress\\integration\\sample\\apiTest.js:107:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testClass",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return a list contain all users"
+  }, {
+    "name" : "package",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b7822377c7dac15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749385732,
+        "stop" : 1653749386138,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "b99ad05e0e0c9106",
+      "status" : "failed",
+      "statusDetails" : "expected 2 to equal 1",
+      "time" : {
+        "start" : 1653749291027,
+        "stop" : 1653749291403,
+        "duration" : 376
+      }
+    }, {
+      "uid" : "b161d3ea4b8419a3",
+      "status" : "failed",
+      "statusDetails" : "expected 2 to equal 1",
+      "time" : {
+        "start" : 1653749234870,
+        "stop" : 1653749235347,
+        "duration" : 477
+      }
+    }, {
+      "uid" : "1f9c1730bafa69f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749173385,
+        "stop" : 1653749173580,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "4f861290e2e113ac",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 201",
+      "time" : {
+        "start" : 1653749077945,
+        "stop" : 1653749078479,
+        "duration" : 534
+      }
+    }, {
+      "uid" : "41c914e83f0535e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749015855,
+        "stop" : 1653749016263,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "f7e641f61bdc6920",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748964072,
+        "stop" : 1653748964648,
+        "duration" : 576
+      }
+    }, {
+      "uid" : "9b742c280b0ccb60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748845852,
+        "stop" : 1653748846060,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "bb2e8a7bccc6cb78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748782546,
+        "stop" : 1653748782740,
+        "duration" : 194
+      }
+    }, {
+      "uid" : "979219f2f828efc7",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 201",
+      "time" : {
+        "start" : 1653748702254,
+        "stop" : 1653748702776,
+        "duration" : 522
+      }
+    }, {
+      "uid" : "2245e7b159dbb91d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747828141,
+        "stop" : 1653747828342,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "8d07b8e24a65ed48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747720987,
+        "stop" : 1653747721325,
+        "duration" : 338
+      }
+    }, {
+      "uid" : "50ae4c474d259f1f",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 201",
+      "time" : {
+        "start" : 1653722507906,
+        "stop" : 1653722508401,
+        "duration" : 495
+      }
+    }, {
+      "uid" : "ce85167711d955b9",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 201",
+      "time" : {
+        "start" : 1653722421417,
+        "stop" : 1653722421970,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "e27f2fe6c8882b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653718434069,
+        "stop" : 1653718434458,
+        "duration" : 389
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5116f792a27a4184.json",
+  "parameterValues" : [ ]
+}

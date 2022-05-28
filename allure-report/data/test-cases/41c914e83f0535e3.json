@@ -1,18 +1,16 @@
 {
-  "uid" : "2a0eb03e8ea5ff6",
+  "uid" : "41c914e83f0535e3",
   "name" : "should return a list contain all users",
   "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
   "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
   "time" : {
-    "start" : 1653722421417,
-    "stop" : 1653722421970,
-    "duration" : 553
+    "start" : 1653749015855,
+    "stop" : 1653749016263,
+    "duration" : 408
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "failed",
-  "statusMessage" : "expected 200 to equal 201",
-  "statusTrace" : "AssertionError: expected 200 to equal 201\n                    at Context.eval (http://localhost:59798/__cypress/tests?p=cypress\\integration\\sample\\apiTest.js:107:36)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -45,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2a0eb03e8ea5ff6.json",
+  "source" : "41c914e83f0535e3.json",
   "parameterValues" : [ ]
 }

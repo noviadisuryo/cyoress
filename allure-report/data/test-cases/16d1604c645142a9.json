@@ -1,5 +1,5 @@
 {
-  "uid" : "2a746ec0dbc7283",
+  "uid" : "16d1604c645142a9",
   "name" : "Google Search",
   "fullName" : "Cypress UI Automation Sample.Google Search",
   "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -37,30 +37,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "cf64c0a5fcaaa69c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653722427929,
-        "stop" : 1653722445351,
-        "duration" : 17422
-      }
-    }, {
-      "uid" : "ae5d586886c35052",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653718440373,
-        "stop" : 1653718460242,
-        "duration" : 19869
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2a746ec0dbc7283.json",
+  "source" : "16d1604c645142a9.json",
   "parameterValues" : [ ]
 }

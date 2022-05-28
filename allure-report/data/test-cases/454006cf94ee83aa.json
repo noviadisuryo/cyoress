@@ -1,0 +1,170 @@
+{
+  "uid" : "454006cf94ee83aa",
+  "name" : "Google Search",
+  "fullName" : "Cypress UI Automation Sample.Google Search",
+  "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
+  "time" : {
+    "start" : 1653749575307,
+    "stop" : 1653749592104,
+    "duration" : 16797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testClass",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testMethod",
+    "value" : "Google Search"
+  }, {
+    "name" : "package",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "92eda095684ae74c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749392265,
+        "stop" : 1653749409851,
+        "duration" : 17586
+      }
+    }, {
+      "uid" : "921b9129fa3369e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749297847,
+        "stop" : 1653749314070,
+        "duration" : 16223
+      }
+    }, {
+      "uid" : "1b9f0624fc4a921b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749243367,
+        "stop" : 1653749261017,
+        "duration" : 17650
+      }
+    }, {
+      "uid" : "706cc2ee3aeebcb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749179502,
+        "stop" : 1653749197893,
+        "duration" : 18391
+      }
+    }, {
+      "uid" : "187c43ad39a9514b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749086579,
+        "stop" : 1653749104415,
+        "duration" : 17836
+      }
+    }, {
+      "uid" : "6da388f61167b858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749022876,
+        "stop" : 1653749039124,
+        "duration" : 16248
+      }
+    }, {
+      "uid" : "649732b946567de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748970719,
+        "stop" : 1653748988416,
+        "duration" : 17697
+      }
+    }, {
+      "uid" : "65719470f5d46273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748852381,
+        "stop" : 1653748869571,
+        "duration" : 17190
+      }
+    }, {
+      "uid" : "9ab7e7bbd7a759d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748789714,
+        "stop" : 1653748806690,
+        "duration" : 16976
+      }
+    }, {
+      "uid" : "52e84a631dddf11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748708681,
+        "stop" : 1653748726466,
+        "duration" : 17785
+      }
+    }, {
+      "uid" : "ce9015c4718ee7b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747834221,
+        "stop" : 1653747851842,
+        "duration" : 17621
+      }
+    }, {
+      "uid" : "c4b7ada8a9bfb971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747727208,
+        "stop" : 1653747746519,
+        "duration" : 19311
+      }
+    }, {
+      "uid" : "16d1604c645142a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722516693,
+        "stop" : 1653722536250,
+        "duration" : 19557
+      }
+    }, {
+      "uid" : "8d5193b72541f565",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722427929,
+        "stop" : 1653722445351,
+        "duration" : 17422
+      }
+    }, {
+      "uid" : "19c323a87f2da987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653718440373,
+        "stop" : 1653718460242,
+        "duration" : 19869
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "454006cf94ee83aa.json",
+  "parameterValues" : [ ]
+}

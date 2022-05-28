@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:run": "cypress run",
     "cy:runapiTest": "cypress run \"cypress/integration/apiTest.js\" --browser chrome --headless",
-    "cy:run:sampleFolder": "cypress run \"cypress/integration/sampel/**/*\" --reporter mocha-allure-reporter",
+    "cy:run:sampleFolder": "cypress run \"cypress/integration/sample/**/*\" --reporter mocha-allure-reporter",
     "merge:report": "mochawesome=merge 'cypress/results/specs/*.json' > cypress/results/mochawesome.json",
     "generate:report": "marge cypress/results/mochawesome.json --reportDir cypress/results --reportFilename index.html",
     "test:mochawesome": "npm run cy:run:sampleFolder && nmp run merge:reports && npm run generate:report",

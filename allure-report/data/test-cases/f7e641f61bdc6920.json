@@ -1,0 +1,48 @@
+{
+  "uid" : "f7e641f61bdc6920",
+  "name" : "should return a list contain all users",
+  "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
+  "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
+  "time" : {
+    "start" : 1653748964072,
+    "stop" : 1653748964648,
+    "duration" : 576
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testClass",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return a list contain all users"
+  }, {
+    "name" : "package",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7e641f61bdc6920.json",
+  "parameterValues" : [ ]
+}

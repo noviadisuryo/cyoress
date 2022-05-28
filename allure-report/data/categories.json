@@ -7,19 +7,19 @@
       "name" : "expected 200 to equal 201",
       "children" : [ {
         "name" : "should return a list contain all users",
-        "uid" : "345512c0578542db",
+        "uid" : "5116f792a27a4184",
         "parentUid" : "c18a28188a73f24b708bf96f85ad58fe",
         "status" : "failed",
         "time" : {
-          "start" : 1653722507906,
-          "stop" : 1653722508401,
-          "duration" : 495
+          "start" : 1653749569036,
+          "stop" : 1653749569378,
+          "duration" : 342
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 2,
+        "retriesCount" : 15,
         "retriesStatusChange" : true,
         "parameters" : [ ]
       } ],

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653749173385' stop='1653749173587'>
+    <name>Reqres.in API Test GET /users</name>
+    <title>Reqres.in API Test GET /users</title>
+    <test-cases>
+        <test-case start='1653749173385' status='passed' stop='1653749173580'>
+            <name>should return a list contain all users</name>
+            <title>should return a list contain all users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

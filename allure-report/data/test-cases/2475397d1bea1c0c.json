@@ -1,11 +1,11 @@
 {
-  "uid" : "4b6023f7d4f7469",
-  "name" : "Then it should return a list with all users in page 2",
-  "fullName" : "Given the Reqres.in API When I send GET /user?page=2.Then it should return a list with all users in page 2",
-  "historyId" : "ba7ee39f370245bcb07879abb50eb7f8",
+  "uid" : "2475397d1bea1c0c",
+  "name" : "Should return a list with all users in page 2",
+  "fullName" : "Reqres.in API Test GET /user?page=2.Should return a list with all users in page 2",
+  "historyId" : "380de5e29b30e84e0749efd36f3ee66e",
   "time" : {
-    "start" : 1653718434466,
-    "stop" : 1653718434550,
+    "start" : 1653748702812,
+    "stop" : 1653748702896,
     "duration" : 84
   },
   "description" : "",
@@ -21,16 +21,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Given the Reqres.in API When I send GET /user?page=2"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testClass",
-    "value" : "Given the Reqres.in API When I send GET /user?page=2"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testMethod",
-    "value" : "Then it should return a list with all users in page 2"
+    "value" : "Should return a list with all users in page 2"
   }, {
     "name" : "package",
-    "value" : "Given the Reqres.in API When I send GET /user?page=2"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b6023f7d4f7469.json",
+  "source" : "2475397d1bea1c0c.json",
   "parameterValues" : [ ]
 }

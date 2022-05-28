@@ -1,5 +1,5 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
     "uid" : "ab23b8f299af02d2b384947334ae964a",
     "name" : "Reqres.in API Test GET /users",
@@ -14,6 +14,17 @@
   }, {
     "uid" : "71eafca6d9f0bf2342f617849902e339",
     "name" : "Given the Reqres.in API When I send GET /user?page=2",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "92601b70ff99908685aff40389d2c454",
+    "name" : "Reqres.in API Test GET /user?page=2",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,0 +1,48 @@
+{
+  "uid" : "9ab7e7bbd7a759d7",
+  "name" : "Google Search",
+  "fullName" : "Cypress UI Automation Sample.Google Search",
+  "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
+  "time" : {
+    "start" : 1653748789714,
+    "stop" : 1653748806690,
+    "duration" : 16976
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testClass",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testMethod",
+    "value" : "Google Search"
+  }, {
+    "name" : "package",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ab7e7bbd7a759d7.json",
+  "parameterValues" : [ ]
+}

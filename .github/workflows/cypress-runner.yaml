@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Cypress run
-        run: npm run test:allure
+        uses: cypress-io/github-action@v2
         with:
           browser: chrome
           headless: true

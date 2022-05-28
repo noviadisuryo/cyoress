@@ -1,12 +1,12 @@
 {
-  "uid" : "70994ed1c2cbde5e",
+  "uid" : "248f99891398e898",
   "name" : "Then it should return a list with all users in page 2",
   "fullName" : "Given the Reqres.in API When I send GET /user?page=2.Then it should return a list with all users in page 2",
   "historyId" : "ba7ee39f370245bcb07879abb50eb7f8",
   "time" : {
-    "start" : 1653722422009,
-    "stop" : 1653722422097,
-    "duration" : 88
+    "start" : 1653722508457,
+    "stop" : 1653722508567,
+    "duration" : 110
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 2,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -37,12 +37,30 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2fbeda1ea1cd3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722422009,
+        "stop" : 1653722422097,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "2f65f7774778c256",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653718434466,
+        "stop" : 1653718434550,
+        "duration" : 84
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "70994ed1c2cbde5e.json",
+  "source" : "248f99891398e898.json",
   "parameterValues" : [ ]
 }

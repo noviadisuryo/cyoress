@@ -1,5 +1,5 @@
 {
-  "uid" : "345512c0578542db",
+  "uid" : "50ae4c474d259f1f",
   "name" : "should return a list contain all users",
   "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
   "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
@@ -17,8 +17,8 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
-  "retriesStatusChange" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -39,35 +39,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "2a0eb03e8ea5ff6",
-      "status" : "failed",
-      "statusDetails" : "expected 200 to equal 201",
-      "time" : {
-        "start" : 1653722421417,
-        "stop" : 1653722421970,
-        "duration" : 553
-      }
-    }, {
-      "uid" : "7ddcaee72b3eac4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1653718434069,
-        "stop" : 1653718434458,
-        "duration" : 389
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "345512c0578542db.json",
+  "source" : "50ae4c474d259f1f.json",
   "parameterValues" : [ ]
 }
