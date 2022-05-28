@@ -1,28 +1,43 @@
-name: Cypress
-on: [push]
-
+name: allure-report
+'on':
+    push:
+        branches:
+            - master
 jobs:
-  cypress-run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install node
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - name: Install dependencies
-        run: npm install
-      - name: Cypress run
-        run: npm run test:allure        
-      - uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-          # Test run video was always captured, so this action uses "always()" condition
-      - uses: actions/upload-artifact@v2
-        if: always()
-        with:
-          name: cypress-videos
-          path: cypress/videos
+    generate-report:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Download Cypress
+              uses: bahmutov/npm-install@v1
+              env:
+                  CYPRESS_INSTALL_BINARY: 0
+
+            - name: Check Cypress cache
+              run: |
+                  npx cypress cache path
+                  npx cypress cache list
+            - name: restore / cache the binary
+              id: cache-cypress
+              uses: actions/cache@v1
+              with:
+                  path: ~/.cache/Cypress
+                  key: >-
+                      cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
+                      }}
+            - name: Prepare Allure history
+              run: |
+                  rm -r allure-results/*
+                  cp -r ./allure-report/history ./allure-results/history
+                  rm -r allure-report/*
+            - name: Install Cypress
+              run: |
+                  npx cypress install
+                  npx cypress cache list
+                  
+            - name: Run Cypress
+              run: npm run test:allure
+
+            - name: Generate Allure report
+              if: always()
+              uses: QuintilianoNery/action-allure-report-V2@0.2.0
