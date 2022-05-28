@@ -13,11 +13,12 @@ jobs:
           node-version: '14'
       - name: Install dependencies
         run: npm install
-      - name: Cypress run
+      - name: Install Cypress
+      run: |
+        npx cypress install
+        npx cypress cache list
+      - name: Testing
         run: npm run test:allure
-        with:
-          browser: chrome
-          headless: true
       - uses: actions/upload-artifact@v2
         if: failure()
         with:
