@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653749234870' stop='1653749235407'>
+    <name>Reqres.in API Test GET /users</name>
+    <title>Reqres.in API Test GET /users</title>
+    <test-cases>
+        <test-case start='1653749234870' status='failed' stop='1653749235347'>
+            <name>should return a list contain all users</name>
+            <title>should return a list contain all users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 2 to equal 1</message>
+                <stack-trace>AssertionError: expected 2 to equal 1
+                    at Context.eval (http://localhost:59747/__cypress/tests?p=cypress\integration\sample\apiTest.js:108:46)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

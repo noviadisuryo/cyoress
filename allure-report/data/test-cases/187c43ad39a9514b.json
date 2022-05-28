@@ -1,12 +1,12 @@
 {
-  "uid" : "ae5d586886c35052",
+  "uid" : "187c43ad39a9514b",
   "name" : "Google Search",
   "fullName" : "Cypress UI Automation Sample.Google Search",
   "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
   "time" : {
-    "start" : 1653718440373,
-    "stop" : 1653718460242,
-    "duration" : 19869
+    "start" : 1653749086579,
+    "stop" : 1653749104415,
+    "duration" : 17836
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ae5d586886c35052.json",
+  "source" : "187c43ad39a9514b.json",
   "parameterValues" : [ ]
 }

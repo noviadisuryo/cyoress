@@ -1,0 +1,146 @@
+{
+  "uid" : "95ef366c8ddc64ee",
+  "name" : "Should return a list with all users in page 2",
+  "fullName" : "Reqres.in API Test GET /user?page=2.Should return a list with all users in page 2",
+  "historyId" : "380de5e29b30e84e0749efd36f3ee66e",
+  "time" : {
+    "start" : 1653749569417,
+    "stop" : 1653749569497,
+    "duration" : 80
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "testClass",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should return a list with all users in page 2"
+  }, {
+    "name" : "package",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4db8be5e399f7f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749386152,
+        "stop" : 1653749386235,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "55cf9a6eff35a04b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749291442,
+        "stop" : 1653749291521,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "ab7a8b4f4398b339",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749235414,
+        "stop" : 1653749235512,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "ff79a9c0ce2eb54c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749173591,
+        "stop" : 1653749173672,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "5b2a74808e546525",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749078558,
+        "stop" : 1653749078677,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "8c3e0358e00632eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653749016273,
+        "stop" : 1653749016356,
+        "duration" : 83
+      }
+    }, {
+      "uid" : "bf23885c4e66c34e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748964661,
+        "stop" : 1653748964752,
+        "duration" : 91
+      }
+    }, {
+      "uid" : "4acea5f614cc5abb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748846075,
+        "stop" : 1653748846168,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "ea8241889680608d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748782754,
+        "stop" : 1653748782836,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "2475397d1bea1c0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653748702812,
+        "stop" : 1653748702896,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "876cad7fb495e5e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747828351,
+        "stop" : 1653747828463,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "c9eff60e3daf9a16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653747721334,
+        "stop" : 1653747721427,
+        "duration" : 93
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95ef366c8ddc64ee.json",
+  "parameterValues" : [ ]
+}

@@ -1,12 +1,12 @@
 {
-  "uid" : "7ddcaee72b3eac4",
-  "name" : "should return a list contain all users",
-  "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
-  "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
+  "uid" : "c9eff60e3daf9a16",
+  "name" : "Should return a list with all users in page 2",
+  "fullName" : "Reqres.in API Test GET /user?page=2.Should return a list with all users in page 2",
+  "historyId" : "380de5e29b30e84e0749efd36f3ee66e",
   "time" : {
-    "start" : 1653718434069,
-    "stop" : 1653718434458,
-    "duration" : 389
+    "start" : 1653747721334,
+    "stop" : 1653747721427,
+    "duration" : 93
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,16 +21,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Reqres.in API Test GET /users"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testClass",
-    "value" : "Reqres.in API Test GET /users"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testMethod",
-    "value" : "should return a list contain all users"
+    "value" : "Should return a list with all users in page 2"
   }, {
     "name" : "package",
-    "value" : "Reqres.in API Test GET /users"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7ddcaee72b3eac4.json",
+  "source" : "c9eff60e3daf9a16.json",
   "parameterValues" : [ ]
 }

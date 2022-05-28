@@ -2,31 +2,10 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Reqres.in API Test GET /users",
-    "children" : [ {
-      "name" : "should return a list contain all users",
-      "uid" : "345512c0578542db",
-      "parentUid" : "43fe14a610bca210279887314838877a",
-      "status" : "failed",
-      "time" : {
-        "start" : 1653722507906,
-        "stop" : 1653722508401,
-        "duration" : 495
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : true,
-      "parameters" : [ ]
-    } ],
-    "uid" : "Reqres.in API Test GET /users"
-  }, {
     "name" : "Given the Reqres.in API When I send GET /user?page=2",
     "children" : [ {
       "name" : "Then it should return a list with all users in page 2",
-      "uid" : "d972517afae5a29d",
+      "uid" : "248f99891398e898",
       "parentUid" : "209fd93e32223c9cad61c64fa51ce0da",
       "status" : "passed",
       "time" : {
@@ -44,22 +23,68 @@
     } ],
     "uid" : "Given the Reqres.in API When I send GET /user?page=2"
   }, {
+    "name" : "Reqres",
+    "children" : [ {
+      "name" : "in API Test GET /users",
+      "children" : [ {
+        "name" : "should return a list contain all users",
+        "uid" : "5116f792a27a4184",
+        "parentUid" : "43fe14a610bca210279887314838877a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653749569036,
+          "stop" : 1653749569378,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43fe14a610bca210279887314838877a"
+    }, {
+      "name" : "in API Test GET /user?page=2",
+      "children" : [ {
+        "name" : "Should return a list with all users in page 2",
+        "uid" : "95ef366c8ddc64ee",
+        "parentUid" : "7a640a97943fb707d9c9e35b1d9f2e78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653749569417,
+          "stop" : 1653749569497,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a640a97943fb707d9c9e35b1d9f2e78"
+    } ],
+    "uid" : "6eca8e3317f2a7494dc321909ac0505c"
+  }, {
     "name" : "Cypress UI Automation Sample",
     "children" : [ {
       "name" : "Google Search",
-      "uid" : "2a746ec0dbc7283",
+      "uid" : "454006cf94ee83aa",
       "parentUid" : "a1b55d034ed20cf03e7dc78f124bef2b",
       "status" : "passed",
       "time" : {
-        "start" : 1653722516693,
-        "stop" : 1653722536250,
-        "duration" : 19557
+        "start" : 1653749575307,
+        "stop" : 1653749592104,
+        "duration" : 16797
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 2,
+      "retriesCount" : 15,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],

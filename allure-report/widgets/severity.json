@@ -1,5 +1,15 @@
 [ {
-  "uid" : "d972517afae5a29d",
+  "uid" : "5116f792a27a4184",
+  "name" : "should return a list contain all users",
+  "time" : {
+    "start" : 1653749569036,
+    "stop" : 1653749569378,
+    "duration" : 342
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "248f99891398e898",
   "name" : "Then it should return a list with all users in page 2",
   "time" : {
     "start" : 1653722508457,
@@ -9,22 +19,22 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "345512c0578542db",
-  "name" : "should return a list contain all users",
+  "uid" : "95ef366c8ddc64ee",
+  "name" : "Should return a list with all users in page 2",
   "time" : {
-    "start" : 1653722507906,
-    "stop" : 1653722508401,
-    "duration" : 495
+    "start" : 1653749569417,
+    "stop" : 1653749569497,
+    "duration" : 80
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2a746ec0dbc7283",
+  "uid" : "454006cf94ee83aa",
   "name" : "Google Search",
   "time" : {
-    "start" : 1653722516693,
-    "stop" : 1653722536250,
-    "duration" : 19557
+    "start" : 1653749575307,
+    "stop" : 1653749592104,
+    "duration" : 16797
   },
   "status" : "passed",
   "severity" : "normal"

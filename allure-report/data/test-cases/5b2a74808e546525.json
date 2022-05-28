@@ -1,0 +1,48 @@
+{
+  "uid" : "5b2a74808e546525",
+  "name" : "Should return a list with all users in page 2",
+  "fullName" : "Reqres.in API Test GET /user?page=2.Should return a list with all users in page 2",
+  "historyId" : "380de5e29b30e84e0749efd36f3ee66e",
+  "time" : {
+    "start" : 1653749078558,
+    "stop" : 1653749078677,
+    "duration" : 119
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "testClass",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should return a list with all users in page 2"
+  }, {
+    "name" : "package",
+    "value" : "Reqres.in API Test GET /user?page=2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b2a74808e546525.json",
+  "parameterValues" : [ ]
+}

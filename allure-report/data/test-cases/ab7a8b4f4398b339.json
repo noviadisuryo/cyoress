@@ -1,12 +1,12 @@
 {
-  "uid" : "cf64c0a5fcaaa69c",
-  "name" : "Google Search",
-  "fullName" : "Cypress UI Automation Sample.Google Search",
-  "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
+  "uid" : "ab7a8b4f4398b339",
+  "name" : "Should return a list with all users in page 2",
+  "fullName" : "Reqres.in API Test GET /user?page=2.Should return a list with all users in page 2",
+  "historyId" : "380de5e29b30e84e0749efd36f3ee66e",
   "time" : {
-    "start" : 1653722427929,
-    "stop" : 1653722445351,
-    "duration" : 17422
+    "start" : 1653749235414,
+    "stop" : 1653749235512,
+    "duration" : 98
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,16 +21,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Cypress UI Automation Sample"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testClass",
-    "value" : "Cypress UI Automation Sample"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "testMethod",
-    "value" : "Google Search"
+    "value" : "Should return a list with all users in page 2"
   }, {
     "name" : "package",
-    "value" : "Cypress UI Automation Sample"
+    "value" : "Reqres.in API Test GET /user?page=2"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cf64c0a5fcaaa69c.json",
+  "source" : "ab7a8b4f4398b339.json",
   "parameterValues" : [ ]
 }
