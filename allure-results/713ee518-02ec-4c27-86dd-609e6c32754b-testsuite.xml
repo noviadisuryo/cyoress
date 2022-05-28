@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653718440373' stop='1653718460295'>
+    <name>Cypress UI Automation Sample</name>
+    <title>Cypress UI Automation Sample</title>
+    <test-cases>
+        <test-case start='1653718440373' status='passed' stop='1653718460242'>
+            <name>Google Search</name>
+            <title>Google Search</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

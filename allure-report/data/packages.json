@@ -1,0 +1,68 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Reqres.in API Test GET /users",
+    "children" : [ {
+      "name" : "should return a list contain all users",
+      "uid" : "345512c0578542db",
+      "parentUid" : "43fe14a610bca210279887314838877a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1653722507906,
+        "stop" : 1653722508401,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "Given the Reqres.in API When I send GET /user?page=2",
+    "children" : [ {
+      "name" : "Then it should return a list with all users in page 2",
+      "uid" : "d972517afae5a29d",
+      "parentUid" : "209fd93e32223c9cad61c64fa51ce0da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722508457,
+        "stop" : 1653722508567,
+        "duration" : 110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "Given the Reqres.in API When I send GET /user?page=2"
+  }, {
+    "name" : "Cypress UI Automation Sample",
+    "children" : [ {
+      "name" : "Google Search",
+      "uid" : "2a746ec0dbc7283",
+      "parentUid" : "a1b55d034ed20cf03e7dc78f124bef2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722516693,
+        "stop" : 1653722536250,
+        "duration" : 19557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a1b55d034ed20cf03e7dc78f124bef2b"
+  } ]
+}

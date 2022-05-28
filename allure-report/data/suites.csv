@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat May 28 14:21:47 ICT 2022","Sat May 28 14:21:48 ICT 2022","495","","Reqres.in API Test GET /users","","Reqres.in API Test GET /users","should return a list contain all users","should return a list contain all users",""
+"passed","Sat May 28 14:21:48 ICT 2022","Sat May 28 14:21:48 ICT 2022","110","","Given the Reqres.in API When I send GET /user?page=2","","Given the Reqres.in API When I send GET /user?page=2","Then it should return a list with all users in page 2","Then it should return a list with all users in page 2",""
+"passed","Sat May 28 14:21:56 ICT 2022","Sat May 28 14:22:16 ICT 2022","19557","","Cypress UI Automation Sample","","Cypress UI Automation Sample","Google Search","Google Search",""

@@ -1,0 +1,66 @@
+{
+  "uid" : "2a746ec0dbc7283",
+  "name" : "Google Search",
+  "fullName" : "Cypress UI Automation Sample.Google Search",
+  "historyId" : "9c69a5f21ed1d09ceeb243636bccefb7",
+  "time" : {
+    "start" : 1653722516693,
+    "stop" : 1653722536250,
+    "duration" : 19557
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testClass",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "testMethod",
+    "value" : "Google Search"
+  }, {
+    "name" : "package",
+    "value" : "Cypress UI Automation Sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cf64c0a5fcaaa69c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722427929,
+        "stop" : 1653722445351,
+        "duration" : 17422
+      }
+    }, {
+      "uid" : "ae5d586886c35052",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653718440373,
+        "stop" : 1653718460242,
+        "duration" : 19869
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a746ec0dbc7283.json",
+  "parameterValues" : [ ]
+}

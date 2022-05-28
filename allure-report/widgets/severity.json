@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d972517afae5a29d",
+  "name" : "Then it should return a list with all users in page 2",
+  "time" : {
+    "start" : 1653722508457,
+    "stop" : 1653722508567,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "345512c0578542db",
+  "name" : "should return a list contain all users",
+  "time" : {
+    "start" : 1653722507906,
+    "stop" : 1653722508401,
+    "duration" : 495
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a746ec0dbc7283",
+  "name" : "Google Search",
+  "time" : {
+    "start" : 1653722516693,
+    "stop" : 1653722536250,
+    "duration" : 19557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

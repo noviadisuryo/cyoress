@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 200 to equal 201",
+      "children" : [ {
+        "name" : "should return a list contain all users",
+        "uid" : "345512c0578542db",
+        "parentUid" : "c18a28188a73f24b708bf96f85ad58fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653722507906,
+          "stop" : 1653722508401,
+          "duration" : 495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c18a28188a73f24b708bf96f85ad58fe"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

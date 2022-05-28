@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Reqres.in API Test GET /users",
+    "children" : [ {
+      "name" : "should return a list contain all users",
+      "uid" : "345512c0578542db",
+      "parentUid" : "ab23b8f299af02d2b384947334ae964a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1653722507906,
+        "stop" : 1653722508401,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ab23b8f299af02d2b384947334ae964a"
+  }, {
+    "name" : "Given the Reqres.in API When I send GET /user?page=2",
+    "children" : [ {
+      "name" : "Then it should return a list with all users in page 2",
+      "uid" : "d972517afae5a29d",
+      "parentUid" : "71eafca6d9f0bf2342f617849902e339",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722508457,
+        "stop" : 1653722508567,
+        "duration" : 110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "71eafca6d9f0bf2342f617849902e339"
+  }, {
+    "name" : "Cypress UI Automation Sample",
+    "children" : [ {
+      "name" : "Google Search",
+      "uid" : "2a746ec0dbc7283",
+      "parentUid" : "a65149106980fda4d024a3fac7328c36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653722516693,
+        "stop" : 1653722536250,
+        "duration" : 19557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a65149106980fda4d024a3fac7328c36"
+  } ]
+}

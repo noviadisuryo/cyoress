@@ -1,0 +1,73 @@
+{
+  "uid" : "345512c0578542db",
+  "name" : "should return a list contain all users",
+  "fullName" : "Reqres.in API Test GET /users.should return a list contain all users",
+  "historyId" : "d3cb72bcaee506051a973ab98aeeb8ec",
+  "time" : {
+    "start" : 1653722507906,
+    "stop" : 1653722508401,
+    "duration" : 495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 200 to equal 201",
+  "statusTrace" : "AssertionError: expected 200 to equal 201\n                    at Context.eval (http://localhost:53384/__cypress/tests?p=cypress\\integration\\sample\\apiTest.js:107:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testClass",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return a list contain all users"
+  }, {
+    "name" : "package",
+    "value" : "Reqres.in API Test GET /users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2a0eb03e8ea5ff6",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to equal 201",
+      "time" : {
+        "start" : 1653722421417,
+        "stop" : 1653722421970,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "7ddcaee72b3eac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653718434069,
+        "stop" : 1653718434458,
+        "duration" : 389
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "345512c0578542db.json",
+  "parameterValues" : [ ]
+}
