@@ -1,9 +1,8 @@
-name: allure-junit5-maven
-
-on: [ push ]
+name: Cypress
+on: [push]
 
 jobs:
-  build:
+  cypress-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -16,43 +15,17 @@ jobs:
         run: npm install
       - name: Cypress run
         uses: cypress-io/github-action@v2
-      - uses: actions/checkout@v2
-
-      - name: Set up JDK 11
-        uses: actions/setup-java@v2
         with:
-          java-version: '11'
-          distribution: 'adopt'
-
-      - name: Run Test
-        if: always()
-        run: mvn package
-        continue-on-error: true
-
-      - name: Get Allure history
-        uses: actions/checkout@v2
-        if: always()
-        continue-on-error: true
+          browser: chrome
+          headless: true
+      - uses: actions/upload-artifact@v2
+        if: failure()
         with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Allure Report action from marketplace
-        uses: simple-elf/allure-report-action@master
+          name: cypress-screenshots
+          path: cypress/screenshots
+          # Test run video was always captured, so this action uses "always()" condition
+      - uses: actions/upload-artifact@v2
         if: always()
-        id: allure-report
         with:
           name: cypress-videos
           path: cypress/videos
-          allure_results: target/allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
-          allure_history: allure-history
-
-      - name: Deploy report to Github Pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
