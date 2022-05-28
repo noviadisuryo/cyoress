@@ -7,24 +7,7 @@ jobs:
     generate-report:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - name: Download Cypress
-              uses: bahmutov/npm-install@v1
-              env:
-                  CYPRESS_INSTALL_BINARY: 0
-
-            - name: Check Cypress cache
-              run: |
-                  npx cypress cache path
-                  npx cypress cache list
-            - name: restore / cache the binary
-              id: cache-cypress
-              uses: actions/cache@v1
-              with:
-                  path: ~/.cache/Cypress
-                  key: >-
-                      cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
-                      }}
+            - uses: actions/checkout@v2            
             - name: Prepare Allure history
               run: |
                   rm -r allure-results/*
